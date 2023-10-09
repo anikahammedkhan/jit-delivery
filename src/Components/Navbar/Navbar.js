@@ -17,11 +17,6 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li className="flex justify-center">
-        <NavLink to="/gallery" className="nav-link">
-          Gallery
-        </NavLink>
-      </li>
-      <li className="flex justify-center">
         <NavLink to="/about-us" className="nav-link">
           About Us
         </NavLink>
@@ -39,7 +34,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="drawer bg-[#002366] z-50">
+    <div className="drawer bg-[#002366] z-50 sticky top-0">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}

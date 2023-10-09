@@ -10,9 +10,15 @@ import img006 from "../../Assets/BannerImg/006.jpg";
 const OurServices = () => {
   return (
     <div className="lg:top-[-50px] md:top-[-30px] top-[-20px] relative -z-0">
-      <img src={ourServices} alt="" />
-      <h1 className="my-20 text-5xl font-bold text-center">Our Services</h1>
-      <div className="card xl:card-side bg-base-100 shadow-xl mx-10 my-10">
+      <img src={ourServices} alt="" className="w-full" />
+      <h1 className="mt-10 text-[36px] font-bold text-center">Our Services</h1>
+      <div
+        className="card xl:card-side bg-base-100 shadow-xl mx-10 my-10"
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"
+      >
         <figure className="xl:w-1/2">
           <img src={img001} alt="Album" className="w-full h-full" />
         </figure>
@@ -48,7 +54,13 @@ const OurServices = () => {
           </p>
         </div>
       </div>
-      <div className="card xl:card-side bg-base-100 shadow-xl mx-10">
+      <div
+        className="card xl:card-side bg-base-100 shadow-xl mx-10"
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"
+      >
         <figure className="xl:w-1/2">
           <img src={img002} alt="Album" className="w-full h-full" />
         </figure>
@@ -88,7 +100,13 @@ const OurServices = () => {
           </p>
         </div>
       </div>
-      <div className="card xl:card-side bg-base-100 shadow-xl mx-10 my-10">
+      <div
+        className="card xl:card-side bg-base-100 shadow-xl mx-10 my-10"
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"
+      >
         <figure className="xl:w-1/2">
           <img src={img003} alt="Album" className="w-full h-full" />
         </figure>
@@ -127,7 +145,13 @@ const OurServices = () => {
           </p>
         </div>
       </div>
-      <div className="card xl:card-side bg-base-100 shadow-xl mx-10">
+      <div
+        className="card xl:card-side bg-base-100 shadow-xl mx-10"
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"
+      >
         <figure className="xl:w-1/2">
           <img src={img004} alt="Album" className="w-full h-full" />
         </figure>
@@ -163,7 +187,13 @@ const OurServices = () => {
           </p>
         </div>
       </div>
-      <div className="card xl:card-side bg-base-100 shadow-xl mx-10 my-10">
+      <div
+        className="card xl:card-side bg-base-100 shadow-xl mx-10 my-10"
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"
+      >
         <figure className="xl:w-1/2">
           <img src={img005} alt="Album" className="w-full h-full" />
         </figure>
@@ -190,7 +220,13 @@ const OurServices = () => {
           </p>
         </div>
       </div>
-      <div className="card xl:card-side bg-base-100 shadow-xl mx-10">
+      <div
+        className="card xl:card-side bg-base-100 shadow-xl mx-10"
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"
+      >
         <figure className="xl:w-1/2">
           <img src={img006} alt="Album" className="w-full h-full" />
         </figure>
