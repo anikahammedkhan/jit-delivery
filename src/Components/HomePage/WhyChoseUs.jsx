@@ -75,7 +75,7 @@ const WhyChoseUs = () => {
       </div>
       <div>
         <h1 className="text-center text-[36px] font-semibold my-10">
-          MISSION VISION
+          MISSION & VISION
         </h1>
         <div
           className="card lg:card-side bg-base-100 shadow-xl mx-10"
@@ -93,7 +93,7 @@ const WhyChoseUs = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">
-              Your vision of becoming unparalleled in leading the transportation
+              Our vision of becoming unparalleled in leading the transportation
               and relocation industry, as well as expanding into other sectors,
               is a bold and ambitious goal. It's evident that your company has
               made significant progress over the years, growing stronger and
