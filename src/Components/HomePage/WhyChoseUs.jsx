@@ -10,7 +10,7 @@ import { MdDoubleArrow } from "react-icons/md";
 
 const WhyChoseUs = () => {
   return (
-    <div className="max-w-[1440px] mx-auto relative md:top-[0px] top-[900px]">
+    <div className="max-w-[1440px] mx-auto relative md:top-[0px] top-[1100px]">
       <h1 className="text-center text-[36px] font-semibold mb-10">
         Why Choose Us
       </h1>
@@ -104,43 +104,43 @@ const WhyChoseUs = () => {
               To continue moving toward your vision, consider these strategies:
             </p>
             <p className="text-[16px] font-semibold">
-              <MdDoubleArrow className="inline mr-2 text-green-600" />
+              <MdDoubleArrow className="inline mr-2 text-[#002366]" />
               Innovation and Technology
             </p>
             <p className="text-[16px] font-semibold">
-              <MdDoubleArrow className="inline mr-2 text-green-600" />
+              <MdDoubleArrow className="inline mr-2 text-[#002366]" />
               Diversification
             </p>
             <p className="text-[16px] font-semibold">
-              <MdDoubleArrow className="inline mr-2 text-green-600" />
+              <MdDoubleArrow className="inline mr-2 text-[#002366]" />
               Quality Service
             </p>
             <p className="text-[16px] font-semibold">
-              <MdDoubleArrow className="inline mr-2 text-green-600" />
+              <MdDoubleArrow className="inline mr-2 text-[#002366]" />
               Employee Training and Development
             </p>
             <p className="text-[16px] font-semibold">
-              <MdDoubleArrow className="inline mr-2 text-green-600" />
+              <MdDoubleArrow className="inline mr-2 text-[#002366]" />
               Partnerships and Collaborations
             </p>
             <p className="text-[16px] font-semibold">
-              <MdDoubleArrow className="inline mr-2 text-green-600" />
+              <MdDoubleArrow className="inline mr-2 text-[#002366]" />
               Sustainability
             </p>
             <p className="text-[16px] font-semibold">
-              <MdDoubleArrow className="inline mr-2 text-green-600" />
+              <MdDoubleArrow className="inline mr-2 text-[#002366]" />
               Market Research
             </p>
             <p className="text-[16px] font-semibold">
-              <MdDoubleArrow className="inline mr-2 text-green-600" />
+              <MdDoubleArrow className="inline mr-2 text-[#002366]" />
               Customer-Centric Approach
             </p>
             <p className="text-[16px] font-semibold">
-              <MdDoubleArrow className="inline mr-2 text-green-600" />
+              <MdDoubleArrow className="inline mr-2 text-[#002366]" />
               Branding and Marketing
             </p>
             <p className="text-[16px] font-semibold">
-              <MdDoubleArrow className="inline mr-2 text-green-600" />
+              <MdDoubleArrow className="inline mr-2 text-[#002366]" />
               Global Expansion
             </p>
           </div>
@@ -178,7 +178,7 @@ const WhyChoseUs = () => {
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
           >
-            <MdDoubleArrow className="md:text-[40px] text-[20px] inline mr-2 text-green-600" />
+            <MdDoubleArrow className="md:text-[40px] text-[20px] inline mr-2 text-[#002366]" />
           </div>
           <div
             className="flex flex-col justify-center items-center gap-2"
@@ -198,7 +198,7 @@ const WhyChoseUs = () => {
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
           >
-            <MdDoubleArrow className="md:text-[40px] text-[20px] inline mr-2 text-green-600" />
+            <MdDoubleArrow className="md:text-[40px] text-[20px] inline mr-2 text-[#002366]" />
           </div>
           <div
             className="flex flex-col justify-center items-center gap-2"
@@ -216,7 +216,7 @@ const WhyChoseUs = () => {
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
           >
-            <MdDoubleArrow className="md:text-[40px] text-[20px] inline mr-2 text-green-600" />
+            <MdDoubleArrow className="md:text-[40px] text-[20px] inline mr-2 text-[#002366]" />
           </div>
           <div
             className="flex flex-col justify-center items-center gap-2"

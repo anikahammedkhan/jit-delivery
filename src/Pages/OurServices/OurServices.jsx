@@ -13,6 +13,48 @@ const OurServices = () => {
       <img src={ourServices} alt="" className="w-full" />
       <h1 className="mt-10 text-[36px] font-bold text-center">Our Services</h1>
       <div
+        className="card xl:card-side bg-base-100 shadow-xl mx-10"
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"
+      >
+        <figure className="xl:w-1/2">
+          <img src={img004} alt="Album" className="w-full h-full" />
+        </figure>
+        <div className="card-body xl:w-1/2">
+          <h2 className="card-title font-bold">TRANSPORTATION SERVICE</h2>
+          <p>
+            JIT DELIVER is offering transportation services. We take additional
+            care and maintain security while transporting your goods because we
+            realize that your goods are a valuable asset. Almost like the
+            products, relocation, and transfer of goods are carried all over
+            Bangladesh.
+          </p>
+          <p>
+            We do relocate any kind of products to other destinations all over
+            Bangladesh. We mostly satisfy our customers with the safety and
+            security standards and ensure that the client's products reach the
+            client's destination on time. So, our Transportation, Packers and
+            Movers in the Dhaka division are here to unravel the matter of
+            transporting your valuable goods.
+          </p>
+          <p>
+            We offer secure cover vans in different sizes based on your
+            requirements for the transfer of your goods. Our friendly staff will
+            do whatever they will to supply you with the specified details. Any
+            complaint as regards our services from our customers is treated with
+            a high degree of seriousness and is rectified as soon as possible.
+          </p>
+          <p>
+            We arrange for the safety of your van at every step, whether it’s
+            loading or relocation. Our professional staff is liable for
+            completing the whole task with care and on time. Service delivered
+            on time is slogan.
+          </p>
+        </div>
+      </div>
+      <div
         className="card xl:card-side bg-base-100 shadow-xl mx-10 my-10"
         data-aos="fade-right"
         data-aos-offset="200"
@@ -23,9 +65,7 @@ const OurServices = () => {
           <img src={img001} alt="Album" className="w-full h-full" />
         </figure>
         <div className="card-body xl:w-1/2">
-          <h2 className="card-title font-bold">
-            Packaging & shifting Services
-          </h2>
+          <h2 className="card-title font-bold">Packing & shifting Services</h2>
           <p>
             We are reliable packers and movers in the Dhaka division and all
             over Bangladesh. Moving from one location to a different one is
@@ -42,12 +82,12 @@ const OurServices = () => {
             belongings. We pride ourselves on offering great packing and moving
             services at reasonable prices. All our employees are experienced,
             respectful, and careful about client's products and services. Our
-            packaging center has well-qualified and trained staff who are
+            packing center has well-qualified and trained staff who are
             excellent at packing your household goods. The whole process of
             packing is accomplished under the strict guidance of our experts.
             offering great packing and moving services at reasonable prices. All
             our employees are experienced, respectful, and careful about
-            client's products and services. Our packaging center has
+            client's products and services. Our packing center has
             well-qualified and trained staff who are excellent at packing your
             household goods. The whole process of packing is accomplished under
             the strict guidance of our experts.
@@ -115,7 +155,7 @@ const OurServices = () => {
             LOADING AND UNLOADING SERVICE
           </h2>
           <p>
-            JIT DELIVER has accomplished a good range of Packaging, Loading &
+            JIT DELIVER has accomplished a good range of Packing, Loading &
             Unloading Services for loading and unloading cargo. Loading the
             products is additionally important to us as many of the products are
             damaged during this process. We do offer for the movement of
@@ -146,50 +186,8 @@ const OurServices = () => {
         </div>
       </div>
       <div
-        className="card xl:card-side bg-base-100 shadow-xl mx-10"
-        data-aos="fade-left"
-        data-aos-offset="200"
-        data-aos-duration="1500"
-        data-aos-easing="ease-in-out"
-      >
-        <figure className="xl:w-1/2">
-          <img src={img004} alt="Album" className="w-full h-full" />
-        </figure>
-        <div className="card-body xl:w-1/2">
-          <h2 className="card-title font-bold">TRANSPORTATION SERVICE</h2>
-          <p>
-            JIT DELIVER is offering transportation services. We take additional
-            care and maintain security while transporting your goods because we
-            realize that your goods are a valuable asset. Almost like the
-            products, relocation, and transfer of goods are carried all over
-            Bangladesh.
-          </p>
-          <p>
-            We do relocate any kind of products to other destinations all over
-            Bangladesh. We mostly satisfy our customers with the safety and
-            security standards and ensure that the client's products reach the
-            client's destination on time. So, our Transportation, Packers and
-            Movers in the Dhaka division are here to unravel the matter of
-            transporting your valuable goods.
-          </p>
-          <p>
-            We offer secure cover vans in different sizes based on your
-            requirements for the transfer of your goods. Our friendly staff will
-            do whatever they will to supply you with the specified details. Any
-            complaint as regards our services from our customers is treated with
-            a high degree of seriousness and is rectified as soon as possible.
-          </p>
-          <p>
-            We arrange for the safety of your van at every step, whether it’s
-            loading or relocation. Our professional staff is liable for
-            completing the whole task with care and on time. Service delivered
-            on time is slogan.
-          </p>
-        </div>
-      </div>
-      <div
         className="card xl:card-side bg-base-100 shadow-xl mx-10 my-10"
-        data-aos="fade-right"
+        data-aos="fade-left"
         data-aos-offset="200"
         data-aos-duration="1500"
         data-aos-easing="ease-in-out"
@@ -222,7 +220,7 @@ const OurServices = () => {
       </div>
       <div
         className="card xl:card-side bg-base-100 shadow-xl mx-10"
-        data-aos="fade-left"
+        data-aos="fade-right"
         data-aos-offset="200"
         data-aos-duration="1500"
         data-aos-easing="ease-in-out"

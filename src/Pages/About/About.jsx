@@ -28,7 +28,7 @@ const About = () => {
         </p>
         <p className="w-4/5 mx-auto font-semibold my-4">
           <span className="text-orange-600">JIT DELIVER</span> Competent
-          Bangladeshi packaging and mover. Furthermore, we’ve provided huge
+          Bangladeshi packing and mover. Furthermore, we’ve provided huge
           experience on domestic goods, organizations and native shifting
           companies, automobile and motorcycle transport service provider
           everywhere Bangladesh.

@@ -15,16 +15,18 @@ const Hero = () => {
     <div className="xl:h-[850px] lg:h-[500px] md:h-[700px] h-[100px]">
       <Carousel
         autoPlay
+        emulateTouch={false}
+        swipeable={false}
         infiniteLoop
         showStatus={false}
         showThumbs={false}
         showIndicators={false}
-        interval={3000}
+        interval={6000}
         showArrows={false}
       >
         <div>
           <img
-            className="xl:h-[850px] lg:h-[500px] md:h-[700px] h-[1000px] object-cover"
+            className="xl:h-[850px] lg:h-[500px] md:h-[400px] h-[300px] object-cover"
             src={imgOne}
             alt="Banner"
             style={{
@@ -33,7 +35,7 @@ const Hero = () => {
           />
           <div className="max-w-[1440px] mx-auto px-10 text-white lg:flex">
             <div
-              className="lg:w-1/2 relative xl:top-[-600px] lg:top-[-350px] md:top-[-650px] top-[-950px]"
+              className="lg:w-1/2 relative xl:top-[-600px] lg:top-[-350px] md:top-[-350px] top-[-280px]"
               data-aos="fade-right"
               data-aos-offset="200"
               data-aos-duration="1500"
@@ -55,23 +57,12 @@ const Hero = () => {
               data-aos-offset="200"
               data-aos-duration="1500"
               data-aos-easing="ease-in-out"
-            >
-              <div className="mx-auto rounded-lg w-full xl:h-[600px] lg:h-[400px] md:h-[450px] h-[600px]">
-                <embed
-                  src="https://app.jitdeliver.com/get-quote-jot/"
-                  type=""
-                  width="100%"
-                  height="100%"
-                  frameBorder="0"
-                  scrolling="no"
-                />
-              </div>
-            </div>
+            ></div>
           </div>
         </div>
         <div>
           <img
-            className="xl:h-[850px] lg:h-[500px] md:h-[700px] h-[1000px] object-cover"
+            className="xl:h-[850px] lg:h-[500px] md:h-[400px] h-[300px] object-cover"
             src={imgTwo}
             alt="Banner"
             style={{
@@ -80,7 +71,7 @@ const Hero = () => {
           />
           <div className="max-w-[1440px] mx-auto px-10 text-white lg:flex">
             <div
-              className="lg:w-1/2 relative xl:top-[-600px] lg:top-[-350px] md:top-[-650px] top-[-950px]"
+              className="lg:w-1/2 relative xl:top-[-600px] lg:top-[-350px] md:top-[-350px] top-[-280px]"
               data-aos="fade-right"
               data-aos-offset="200"
               data-aos-duration="1500"
@@ -102,23 +93,12 @@ const Hero = () => {
               data-aos-offset="200"
               data-aos-duration="1500"
               data-aos-easing="ease-in-out"
-            >
-              <div className="mx-auto rounded-lg w-full xl:h-[600px] lg:h-[400px] md:h-[450px] h-[600px]">
-                <embed
-                  src="https://app.jitdeliver.com/get-quote-jot/"
-                  type=""
-                  width="100%"
-                  height="100%"
-                  frameBorder="0"
-                  scrolling="no"
-                />
-              </div>
-            </div>
+            ></div>
           </div>
         </div>
         <div>
           <img
-            className="xl:h-[850px] lg:h-[500px] md:h-[700px] h-[1000px] object-cover"
+            className="xl:h-[850px] lg:h-[500px] md:h-[400px] h-[300px] object-cover"
             src={imgThree}
             alt="Banner"
             style={{
@@ -127,7 +107,7 @@ const Hero = () => {
           />
           <div className="max-w-[1440px] mx-auto px-10 text-white lg:flex">
             <div
-              className="lg:w-1/2 relative xl:top-[-600px] lg:top-[-350px] md:top-[-650px] top-[-950px]"
+              className="lg:w-1/2 relative xl:top-[-600px] lg:top-[-350px] md:top-[-350px] top-[-280px]"
               data-aos="fade-right"
               data-aos-offset="200"
               data-aos-duration="1500"
@@ -149,21 +129,25 @@ const Hero = () => {
               data-aos-offset="200"
               data-aos-duration="1500"
               data-aos-easing="ease-in-out"
-            >
-              <div className="mx-auto rounded-lg w-full xl:h-[600px] lg:h-[400px] md:h-[450px] h-[600px]">
-                <embed
-                  src="https://app.jitdeliver.com/get-quote-jot/"
-                  type=""
-                  width="100%"
-                  height="100%"
-                  frameBorder="0"
-                  scrolling="no"
-                />
-              </div>
-            </div>
+            ></div>
           </div>
         </div>
       </Carousel>
+      <div className="flex max-w-[1440px] mx-auto relative xl:top-[-1150px] lg:top-[-730px] md:top-[-350px] top-[-280px] bg-transparent">
+        <div className="lg:w-1/2"></div>
+        <div className="lg:w-1/2 w-full mx-auto bg-transparent">
+          <div className="mx-auto rounded-lg w-[380px] xl:h-[700px] lg:h-[400px] md:h-[450px] h-[1150px]">
+            <embed
+              src="https://app.jitdeliver.com/get-quote-jot/"
+              type=""
+              width="100%"
+              height="100%"
+              frameBorder="0"
+              scrolling="no"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
