@@ -5,12 +5,12 @@ import icon3 from "../../Assets/Icons/08.png";
 import icon4 from "../../Assets/Icons/09.png";
 import icon5 from "../../Assets/Icons/10.png";
 import icon6 from "../../Assets/Icons/11.png";
-import missionImg from "../../Assets/Others/missionAndVision.jpg";
+import missionImg from "../../Assets/BannerImg/mission&vision.jpg";
 import { MdDoubleArrow } from "react-icons/md";
 
 const WhyChoseUs = () => {
   return (
-    <div className="max-w-[1440px] mx-auto relative md:top-[0px] top-[1100px]">
+    <div className="max-w-[1440px] mx-auto relative xl:top-[0px] lg:top-[100px] md:top-[200px] top-[800px]">
       <h1 className="text-center text-[36px] font-semibold mb-10">
         Why Choose Us
       </h1>

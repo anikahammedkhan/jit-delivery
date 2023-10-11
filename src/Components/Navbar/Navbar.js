@@ -27,6 +27,11 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li className="flex justify-center">
+        <NavLink to="/" className="nav-link">
+          Blog
+        </NavLink>
+      </li>
+      <li className="flex justify-center">
         <NavLink to="/tracking" className="nav-link">
           Tracking
         </NavLink>

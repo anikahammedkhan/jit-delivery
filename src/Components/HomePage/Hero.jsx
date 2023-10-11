@@ -6,6 +6,7 @@ import { Carousel } from "react-responsive-carousel";
 import imgOne from "../../Assets/BannerImg/001.jpg";
 import imgTwo from "../../Assets/BannerImg/002.jpg";
 import imgThree from "../../Assets/BannerImg/003.jpg";
+import JotformEmbed from "react-jotform-embed";
 
 const Hero = () => {
   useEffect(() => {
@@ -14,7 +15,7 @@ const Hero = () => {
   return (
     <div className="xl:h-[850px] lg:h-[500px] md:h-[700px] h-[100px]">
       <Carousel
-        autoPlay
+        // autoPlay
         emulateTouch={false}
         swipeable={false}
         infiniteLoop
@@ -26,7 +27,7 @@ const Hero = () => {
       >
         <div>
           <img
-            className="xl:h-[850px] lg:h-[500px] md:h-[400px] h-[300px] object-cover"
+            className="xl:h-[850px] lg:h-[600px] md:h-[400px] h-[300px] object-cover"
             src={imgOne}
             alt="Banner"
             style={{
@@ -62,7 +63,7 @@ const Hero = () => {
         </div>
         <div>
           <img
-            className="xl:h-[850px] lg:h-[500px] md:h-[400px] h-[300px] object-cover"
+            className="xl:h-[850px] lg:h-[600px] md:h-[400px] h-[300px] object-cover"
             src={imgTwo}
             alt="Banner"
             style={{
@@ -98,7 +99,7 @@ const Hero = () => {
         </div>
         <div>
           <img
-            className="xl:h-[850px] lg:h-[500px] md:h-[400px] h-[300px] object-cover"
+            className="xl:h-[850px] lg:h-[600px] md:h-[400px] h-[300px] object-cover"
             src={imgThree}
             alt="Banner"
             style={{
@@ -133,18 +134,18 @@ const Hero = () => {
           </div>
         </div>
       </Carousel>
-      <div className="flex max-w-[1440px] mx-auto relative xl:top-[-1150px] lg:top-[-730px] md:top-[-350px] top-[-280px] bg-transparent">
+      <div className="flex max-w-[1440px] mx-auto relative xl:top-[-1150px] lg:top-[-880px] md:top-[-350px] top-[-280px] bg-transparent">
         <div className="lg:w-1/2"></div>
         <div className="lg:w-1/2 w-full mx-auto bg-transparent">
-          <div className="mx-auto rounded-lg w-[380px] xl:h-[700px] lg:h-[400px] md:h-[450px] h-[1150px]">
-            <embed
-              src="https://app.jitdeliver.com/get-quote-jot/"
-              type=""
-              width="100%"
-              height="100%"
-              frameBorder="0"
-              scrolling="no"
-            />
+          <div className="mx-auto rounded-lg w-[300px] h-[200px] xl:scale-100 lg:scale-75">
+            <iframe
+              src="https://form.jotform.com/232601709873459"
+              title="Get Quote"
+              style={{
+                width: "100%",
+                height: "718px",
+              }}
+            ></iframe>
           </div>
         </div>
       </div>

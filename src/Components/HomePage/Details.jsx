@@ -6,12 +6,12 @@ import icon4 from "../../Assets/Icons/04.png";
 import icon5 from "../../Assets/Icons/05.png";
 import icon6 from "../../Assets/Icons/06.png";
 import icon7 from "../../Assets/Icons/07.png";
-import imageBanner from "../../Assets/Others/included-services-banner.jpg";
+import imageBanner from "../../Assets/BannerImg/affordable-section.jpg";
 import { MdDoubleArrow } from "react-icons/md";
 
 const Details = () => {
   return (
-    <div className="mt-28 max-w-[1440px] mx-auto relative top-[1100px] md:top-[-50px]">
+    <div className="mt-28 max-w-[1440px] mx-auto relative top-[800px] md:top-[180px] lg:top-[50px] xl:top-[-50px]">
       <div
         className="text-center"
         data-aos="fade-up"

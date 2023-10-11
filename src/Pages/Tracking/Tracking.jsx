@@ -1,5 +1,5 @@
 import React from "react";
-import img001 from "../../Assets/Others/track-order.jpg";
+import img001 from "../../Assets/Others/tracking.jpg";
 
 const Tracking = () => {
   return (

@@ -1,17 +1,17 @@
 import React from "react";
 import ourServices from "../../Assets/BannerImg/our-services.jpg";
 import img001 from "../../Assets/BannerImg/001.jpg";
-import img002 from "../../Assets/BannerImg/002.jpg";
-import img003 from "../../Assets/BannerImg/003.jpg";
-import img004 from "../../Assets/BannerImg/004.jpg";
+import img002 from "../../Assets/BannerImg/warehouse-operation.jpg";
+import img003 from "../../Assets/BannerImg/loading-unloading.jpg";
+import img004 from "../../Assets/BannerImg/transport.jpg";
 import img005 from "../../Assets/BannerImg/005.jpg";
-import img006 from "../../Assets/BannerImg/006.jpg";
+import img006 from "../../Assets/BannerImg/reloaction.jpg";
 
 const OurServices = () => {
   return (
     <div className="lg:top-[-50px] md:top-[-30px] top-[-20px] relative -z-0">
       <img src={ourServices} alt="" className="w-full" />
-      <h1 className="mt-10 text-[36px] font-bold text-center">Our Services</h1>
+      <h1 className="my-10 text-[36px] font-bold text-center">Our Services</h1>
       <div
         className="card xl:card-side bg-base-100 shadow-xl mx-10"
         data-aos="fade-left"

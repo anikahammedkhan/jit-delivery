@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="footer p-10 bg-[#002366] relative items-center text-white md:top-[0px] top-[200px]">
+    <footer className="footer p-10 bg-[#002366] relative items-center text-white xl:top-[0px] lg:top-[100px] md:top-[200px] top-[0px]">
       <aside>
         <img src={logo} alt="" className="w-[200px]" />
       </aside>
