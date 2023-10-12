@@ -6,6 +6,7 @@ import OurServices from "../../Pages/OurServices/OurServices";
 import About from "../../Pages/About/About";
 import Contact from "../../Pages/ContactUs/Contact";
 import Tracking from "../../Pages/Tracking/Tracking";
+import GetAQuote from "../../Pages/GetAQuote/GetAQuote";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/tracking",
         element: <Tracking />,
+      },
+      {
+        path: "/get-a-quote",
+        element: <GetAQuote />,
       },
     ],
   },

@@ -10,7 +10,7 @@ import { MdDoubleArrow } from "react-icons/md";
 
 const WhyChoseUs = () => {
   return (
-    <div className="max-w-[1440px] mx-auto relative xl:top-[0px] lg:top-[100px] md:top-[200px] top-[800px]">
+    <div className="max-w-[1440px] mx-auto relative xl:top-[0px] lg:top-[100px] md:top-[0px] top-[550px]">
       <h1 className="text-center text-[36px] font-semibold mb-10">
         Why Choose Us
       </h1>
@@ -74,7 +74,7 @@ const WhyChoseUs = () => {
         </div>
       </div>
       <div>
-        <h1 className="text-center text-[36px] font-semibold my-10">
+        <h1 className="text-center text-[36px] font-semibold mt-10">
           MISSION & VISION
         </h1>
         <div
@@ -146,7 +146,7 @@ const WhyChoseUs = () => {
           </div>
         </div>
       </div>
-      <div className="px-10 mt-10 md:mb-[0px] mb-[940px]">
+      <div className="px-10 mt-10 xl:mb-[0px] lg:mb-[150px] md:mb-[50px] mb-[580px]">
         <h1 className="text-center text-[36px] font-semibold my-5">
           STRENGTH & VALUES
         </h1>

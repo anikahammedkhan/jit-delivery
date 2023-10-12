@@ -11,7 +11,7 @@ import { MdDoubleArrow } from "react-icons/md";
 
 const Details = () => {
   return (
-    <div className="mt-28 max-w-[1440px] mx-auto relative top-[800px] md:top-[180px] lg:top-[50px] xl:top-[-50px]">
+    <div className="mt-28 max-w-[1440px] mx-auto relative top-[500px] md:top-[-50px] lg:top-[50px] xl:top-[-50px]">
       <div
         className="text-center"
         data-aos="fade-up"

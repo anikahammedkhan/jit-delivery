@@ -65,7 +65,9 @@ const OurServices = () => {
           <img src={img001} alt="Album" className="w-full h-full" />
         </figure>
         <div className="card-body xl:w-1/2">
-          <h2 className="card-title font-bold">Packing & shifting Services</h2>
+          <h2 className="card-title font-bold uppercase">
+            Packing & shifting Services
+          </h2>
           <p>
             We are reliable packers and movers in the Dhaka division and all
             over Bangladesh. Moving from one location to a different one is
@@ -105,7 +107,7 @@ const OurServices = () => {
           <img src={img002} alt="Album" className="w-full h-full" />
         </figure>
         <div className="card-body xl:w-1/2">
-          <h2 className="card-title font-bold">
+          <h2 className="card-title font-bold uppercase">
             Warehouse Operation Support Service
           </h2>
           <p>

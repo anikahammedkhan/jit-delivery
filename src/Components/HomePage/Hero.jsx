@@ -6,7 +6,9 @@ import { Carousel } from "react-responsive-carousel";
 import imgOne from "../../Assets/BannerImg/001.jpg";
 import imgTwo from "../../Assets/BannerImg/002.jpg";
 import imgThree from "../../Assets/BannerImg/003.jpg";
+import formImg from "../../Assets/BannerImg/hero-gaq.png";
 import JotformEmbed from "react-jotform-embed";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   useEffect(() => {
@@ -134,18 +136,27 @@ const Hero = () => {
           </div>
         </div>
       </Carousel>
-      <div className="flex max-w-[1440px] mx-auto relative xl:top-[-1150px] lg:top-[-880px] md:top-[-350px] top-[-280px] bg-transparent">
+      <div className="flex max-w-[1440px] mx-auto relative xl:top-[-1050px] lg:top-[-800px] md:top-[-350px] top-[-280px] bg-transparent">
         <div className="lg:w-1/2"></div>
         <div className="lg:w-1/2 w-full mx-auto bg-transparent">
-          <div className="mx-auto rounded-lg w-[300px] h-[200px] xl:scale-100 lg:scale-75">
-            <iframe
+          <div
+            className="mx-auto rounded-lg w-[300px] h-[200px]"
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+          >
+            <Link to="get-a-quote">
+              <img src={formImg} alt="" />
+            </Link>
+            {/* <iframe
               src="https://form.jotform.com/232601709873459"
               title="Get Quote"
               style={{
                 width: "100%",
                 height: "718px",
               }}
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
       </div>
