@@ -14,32 +14,19 @@ const Footer = () => {
       <aside>
         <img src={logo} alt="" className="w-[200px]" />
         <div className="flex gap-3">
-          <Link
-            to="https://www.facebook.com/jitdeliver"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link to="https://www.facebook.com/jitdeliver" target="_blank">
             <img src={fb} alt="" className="w-[30px]" />
           </Link>
           <Link
             to="https://www.linkedin.com/company/jitdeliver/"
             target="_blank"
-            rel="noopener noreferrer"
           >
             <img src={linkedin} alt="" className="w-[30px]" />
           </Link>
-          <Link
-            to="https://www.instagram.com/Jitdeliver23"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link to="https://www.instagram.com/Jitdeliver23" target="_blank">
             <img src={insta} alt="" className="w-[30px]" />
           </Link>
-          <Link
-            to="https://wa.me/+8801714208717"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link to="https://wa.me/+8801714208717" target="_blank">
             <img src={whatsapp} alt="" className="w-[30px]" />
           </Link>
         </div>
@@ -86,7 +73,6 @@ const Footer = () => {
             <Link
               to="https://www.linkedin.com/in/anikahammedkhan/"
               target="_blank"
-              rel="noopener noreferrer"
               className="hover:text-red-600 underline"
             >
               Md Anik Ahammed Khan

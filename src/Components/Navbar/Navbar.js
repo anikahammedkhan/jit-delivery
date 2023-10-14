@@ -1,41 +1,172 @@
-import React from "react";
+import React, { useContext, useState, useEffect } from "react";
 import logo from "../../Assets/Logo/logo1.png";
+import bd from "../../Assets/Icons/bangladesh.png";
+import en from "../../Assets/Icons/usa.png";
 import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
+import { AuthContext } from "../../Context/ContextData";
+import Select, { components } from "react-select";
 
 const Navbar = () => {
+  const { language, setLanguage } = useContext(AuthContext);
+  console.log(language);
+  const countries = [
+    { value: "bd", label: "বাংলা", icon: bd },
+    { value: "en", label: "English", icon: en },
+  ];
+  const [selectedLanguage, setSelectedLanguage] = useState(countries[1]);
+  useEffect(() => {
+    setSelectedLanguage(
+      countries.find((country) => country.value === language)
+    );
+  }, [language]);
+
+  const Option = (props) => (
+    <components.Option
+      {...props}
+      className="flex w-full flex-row bg-[#002366] items-center"
+    >
+      <img src={props.data.icon} alt="logo" className="w-[20px]" />
+      <p className="inline">{props.data.label}</p>
+    </components.Option>
+  );
+
+  const handleChange = (value) => {
+    setLanguage(value.value);
+  };
+
+  const SingleValue = ({ children, ...props }) => (
+    <components.SingleValue {...props}>
+      <img src={selectedLanguage.icon} alt="s-logo" className="w-[20px] mr-2" />
+      {children}
+    </components.SingleValue>
+  );
+
   const menu = (
     <>
-      <li className="flex justify-center">
-        <NavLink exact to="/" className="nav-link">
-          Home
-        </NavLink>
-      </li>
-      <li className="flex justify-center">
-        <NavLink to="/our-services" className="nav-link">
-          Our Services
-        </NavLink>
-      </li>
-      <li className="flex justify-center">
-        <NavLink to="/about-us" className="nav-link">
-          About Us
-        </NavLink>
-      </li>
-      <li className="flex justify-center">
-        <NavLink to="/contact-us" className="nav-link">
-          Contact Us
-        </NavLink>
-      </li>
-      <li className="flex justify-center">
-        <NavLink to="/" className="nav-link">
-          Blog
-        </NavLink>
-      </li>
-      <li className="flex justify-center">
-        <NavLink to="/tracking" className="nav-link">
-          Tracking
-        </NavLink>
-      </li>
+      {language === "en" ? (
+        <>
+          <li className="flex justify-center">
+            <NavLink exact to="/" className="nav-link">
+              Home
+            </NavLink>
+          </li>
+          <li className="flex justify-center">
+            <NavLink to="/our-services" className="nav-link">
+              Our Services
+            </NavLink>
+          </li>
+          <li className="flex justify-center">
+            <NavLink to="/about-us" className="nav-link">
+              About Us
+            </NavLink>
+          </li>
+          <li className="flex justify-center">
+            <NavLink to="/contact-us" className="nav-link">
+              Contact Us
+            </NavLink>
+          </li>
+          <li className="flex justify-center">
+            <NavLink to="/" className="nav-link">
+              Blog
+            </NavLink>
+          </li>
+          <li className="flex justify-center">
+            <NavLink to="/tracking" className="nav-link">
+              Tracking
+            </NavLink>
+          </li>
+          <li>
+            <Select
+              value={selectedLanguage}
+              options={countries}
+              // defaultMenuIsOpen
+              onChange={handleChange}
+              styles={{
+                singleValue: (base) => ({
+                  ...base,
+                  display: "flex",
+                  alignItems: "center",
+                }),
+                option: (provided, state) => ({
+                  ...provided,
+                  backgroundColor: state.isSelected ? "#002366" : "transparent",
+                  color: state.isSelected ? "white" : "black",
+                  "&:hover": {
+                    backgroundColor: "#1358d8",
+                    color: "white",
+                  },
+                }),
+              }}
+              components={{
+                Option,
+                SingleValue,
+              }}
+            />
+          </li>
+        </>
+      ) : (
+        <>
+          <li className="flex justify-center">
+            <NavLink exact to="/" className="nav-link">
+              হোম
+            </NavLink>
+          </li>
+          <li className="flex justify-center">
+            <NavLink to="/our-services" className="nav-link">
+              আমাদের সেবাসমূহ
+            </NavLink>
+          </li>
+          <li className="flex justify-center">
+            <NavLink to="/about-us" className="nav-link">
+              আমাদের সম্পর্কে
+            </NavLink>
+          </li>
+          <li className="flex justify-center">
+            <NavLink to="/contact-us" className="nav-link">
+              যোগাযোগ
+            </NavLink>
+          </li>
+          <li className="flex justify-center">
+            <NavLink to="/" className="nav-link">
+              ব্লগ
+            </NavLink>
+          </li>
+          <li className="flex justify-center">
+            <NavLink to="/tracking" className="nav-link">
+              ট্র্যাকিং
+            </NavLink>
+          </li>
+          <li>
+            <Select
+              value={selectedLanguage}
+              options={countries}
+              // defaultMenuIsOpen
+              onChange={handleChange}
+              styles={{
+                singleValue: (base) => ({
+                  ...base,
+                  display: "flex",
+                  alignItems: "center",
+                }),
+                option: (provided, state) => ({
+                  ...provided,
+                  backgroundColor: state.isSelected ? "#002366" : "transparent",
+                  color: state.isSelected ? "white" : "black",
+                  "&:hover": {
+                    backgroundColor: "#1358d8",
+                    color: "white",
+                  },
+                }),
+              }}
+              components={{
+                Option,
+                SingleValue,
+              }}
+            />
+          </li>
+        </>
+      )}
     </>
   );
   return (
