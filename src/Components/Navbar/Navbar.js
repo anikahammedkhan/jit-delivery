@@ -80,6 +80,7 @@ const Navbar = () => {
             <Select
               value={selectedLanguage}
               options={countries}
+              isSearchable={false}
               // defaultMenuIsOpen
               onChange={handleChange}
               styles={{
@@ -142,6 +143,7 @@ const Navbar = () => {
               value={selectedLanguage}
               options={countries}
               // defaultMenuIsOpen
+              isSearchable={false}
               onChange={handleChange}
               styles={{
                 singleValue: (base) => ({

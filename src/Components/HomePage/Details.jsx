@@ -190,7 +190,9 @@ const Details = () => {
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
           >
-            <h1 className="text-[36px] font-bold">জেআইটি ডেলিভারে স্বাগতম</h1>
+            <h1 className="text-[36px] font-bold px-4">
+              জেআইটি ডেলিভারে স্বাগতম
+            </h1>
             <p className="text-[20px] w-3/4 mx-auto my-2">
               <span className="font-bold text-orange-600">জেআইটি ডেলিভার </span>{" "}
               বিশ্বস্তার সাথে সময়মত প্যাকিং এবং পণ্য মুভিং এবং পরিবহন পরিষেবা
