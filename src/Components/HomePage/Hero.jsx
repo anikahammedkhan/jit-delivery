@@ -7,7 +7,7 @@ import imgOne from "../../Assets/BannerImg/001.jpg";
 import imgTwo from "../../Assets/BannerImg/002.jpg";
 import imgThree from "../../Assets/BannerImg/003.jpg";
 import formImg from "../../Assets/BannerImg/hero-gaq.png";
-import formImg2 from "../../Assets/BannerImg/form-bd.jpg";
+import formImg2 from "../../Assets/BannerImg/form-bd.png";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Context/ContextData";
 
@@ -43,13 +43,13 @@ const Hero = () => {
               />
               <div className="max-w-[1440px] mx-auto px-10 text-white lg:flex">
                 <div
-                  className="lg:w-1/2 relative xl:top-[-500px] lg:top-[-450px] md:top-[-350px] top-[-280px]"
+                  className="lg:w-1/2 relative 2xl:top-[-500px] xl:top-[-400px] lg:top-[-450px] md:top-[-350px] top-[-280px]"
                   data-aos="fade-right"
                   data-aos-offset="200"
                   data-aos-duration="1500"
                   data-aos-easing="ease-in-out"
                 >
-                  <h1 className="font-bold xl:text-[55px] lg:text-[35px] md:text-[32px] text-[25px] lg:text-left">
+                  <h1 className="font-bold 2xl:text-[55px] xl:text-[45px] lg:text-[35px] md:text-[32px] text-[25px] lg:text-left">
                     We provide quality home, Office Shifting, and Transportation
                     services
                   </h1>
@@ -79,13 +79,13 @@ const Hero = () => {
               />
               <div className="max-w-[1440px] mx-auto px-10 text-white lg:flex">
                 <div
-                  className="lg:w-1/2 relative 2xl:top-[-600px] xl:top-[-500px] lg:top-[-420px] md:top-[-350px] top-[-280px]"
+                  className="lg:w-1/2 relative 2xl:top-[-500px] xl:top-[-400px] lg:top-[-420px] md:top-[-350px] top-[-280px]"
                   data-aos="fade-right"
                   data-aos-offset="200"
                   data-aos-duration="1500"
                   data-aos-easing="ease-in-out"
                 >
-                  <h1 className="font-bold xl:text-[55px] lg:text-[35px] md:text-[32px] text-[25px] lg:text-left">
+                  <h1 className="font-bold 2xl:text-[55px] xl:text-[45px] lg:text-[35px] md:text-[32px] text-[25px] lg:text-left">
                     We provide Loading, Unloading, and Labor services to
                     mitigate your contingency requirement
                   </h1>
@@ -115,13 +115,13 @@ const Hero = () => {
               />
               <div className="max-w-[1440px] mx-auto px-10 text-white lg:flex">
                 <div
-                  className="lg:w-1/2 relative xl:top-[-500px] lg:top-[-350px] md:top-[-350px] top-[-280px]"
+                  className="lg:w-1/2 relative 2xl:top-[-500px] xl:top-[-400px] lg:top-[-350px] md:top-[-350px] top-[-280px]"
                   data-aos="fade-right"
                   data-aos-offset="200"
                   data-aos-duration="1500"
                   data-aos-easing="ease-in-out"
                 >
-                  <h1 className="font-bold xl:text-[55px] lg:text-[35px] md:text-[32px] text-[25px] lg:text-left">
+                  <h1 className="font-bold 2xl:text-[55px] xl:text-[45px] lg:text-[35px] md:text-[32px] text-[25px] lg:text-left">
                     We Provide warehouse operation support service
                   </h1>
                   <p className="lg:text-left">
@@ -141,7 +141,7 @@ const Hero = () => {
               </div>
             </div>
           </Carousel>
-          <div className="flex max-w-[1440px] mx-auto relative 2xl:top-[-1050px] xl:top-[-950px] lg:top-[-800px] md:top-[-350px] top-[-280px] bg-transparent">
+          <div className="flex max-w-[1440px] mx-auto relative 2xl:top-[-1050px] xl:top-[-750px] lg:top-[-750px] md:top-[-350px] top-[-280px] bg-transparent">
             <div className="lg:w-1/2"></div>
             <div className="lg:w-1/2 w-full mx-auto bg-transparent">
               <div
@@ -169,7 +169,7 @@ const Hero = () => {
       ) : (
         <div className="lg:h-[85vh] md:h-[700px] h-[100px]">
           <Carousel
-            // autoPlay
+            autoPlay
             emulateTouch={false}
             swipeable={false}
             infiniteLoop
@@ -190,13 +190,13 @@ const Hero = () => {
               />
               <div className="max-w-[1440px] mx-auto px-10 text-white lg:flex">
                 <div
-                  className="lg:w-1/2 relative 2xl:top-[-600px] xl:top-[-500px] lg:top-[-450px] md:top-[-350px] top-[-420px]"
+                  className="lg:w-1/2 relative 2xl:top-[-600px] xl:top-[-400px] lg:top-[-450px] md:top-[-350px] top-[-420px]"
                   data-aos="fade-left"
                   data-aos-offset="200"
                   data-aos-duration="1500"
                   data-aos-easing="ease-in-out"
                 >
-                  <h1 className="font-bold xl:text-[45px] lg:text-[35px] md:text-[32px] text-[25px] lg:text-left">
+                  <h1 className="font-bold 2xl:text-[45px] xl:text-[35px] lg:text-[35px] md:text-[32px] text-[25px] lg:text-left">
                     আপনার যে কোন প্রয়োজন লোডিং, আনলোডিং এবং শ্রমিক পরিষেবা
                     সরবরাহ করি যাতে প্রয়োজনীয়তা সহজলভ্য হয়
                   </h1>
@@ -226,13 +226,13 @@ const Hero = () => {
               />
               <div className="max-w-[1440px] mx-auto px-10 text-white lg:flex">
                 <div
-                  className="lg:w-1/2 relative 2xl:top-[-550px] xl:top-[-500px] lg:top-[-450px] md:top-[-350px] top-[-420px]"
+                  className="lg:w-1/2 relative 2xl:top-[-600px] xl:top-[-400px] lg:top-[-450px] md:top-[-350px] top-[-420px]"
                   data-aos="fade-right"
                   data-aos-offset="200"
                   data-aos-duration="1500"
                   data-aos-easing="ease-in-out"
                 >
-                  <h1 className="font-bold xl:text-[45px] lg:text-[35px] md:text-[32px] text-[25px] lg:text-left">
+                  <h1 className="font-bold 2xl:text-[45px] xl:text-[35px] lg:text-[35px] md:text-[32px] text-[25px] lg:text-left">
                     আমরা আপনার প্রয়োজন অনুযায়ী মানসম্পন্ন বাড়ি, অফিস
                     স্থানান্তর এবং পরিবহন পরিষেবা প্রদান করি
                   </h1>
@@ -263,13 +263,13 @@ const Hero = () => {
               />
               <div className="max-w-[1440px] mx-auto px-10 text-white lg:flex">
                 <div
-                  className="lg:w-1/2 relative 2xl:top-[-600px] xl:top-[-500px] lg:top-[-450px] md:top-[-350px] top-[-420px]"
+                  className="lg:w-1/2 relative 2xl:top-[-600px] xl:top-[-400px] lg:top-[-450px] md:top-[-350px] top-[-420px]"
                   data-aos="fade-right"
                   data-aos-offset="200"
                   data-aos-duration="1500"
                   data-aos-easing="ease-in-out"
                 >
-                  <h1 className="font-bold xl:text-[55px] lg:text-[35px] md:text-[32px] text-[25px] lg:text-left">
+                  <h1 className="font-bold 2xl:text-[45px] xl:text-[35px] lg:text-[35px] md:text-[32px] text-[25px] lg:text-left">
                     আমরা গুদাম অপারেশন সহায়তা পরিষেবা প্রদান করি
                   </h1>
                   <p className="lg:text-left">
@@ -294,18 +294,18 @@ const Hero = () => {
               </div>
             </div>
           </Carousel>
-          <div className="flex max-w-[1440px] mx-auto relative 2xl:top-[-1050px] xl:top-[-950px] lg:top-[-850px] md:top-[-350px] top-[-400px] bg-transparent">
+          <div className="flex max-w-[1440px] mx-auto relative 2xl:top-[-1050px] xl:top-[-740px] lg:top-[-850px] md:top-[-350px] top-[-400px] bg-transparent">
             <div className="lg:w-1/2"></div>
             <div className="lg:w-1/2 w-full mx-auto bg-transparent">
               <div
-                className="mx-auto rounded-lg w-[300px] h-[200px]"
+                className="mx-auto rounded-lg w-[280px] h-[200px]"
                 data-aos="fade-right"
                 data-aos-offset="200"
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-out"
               >
                 <Link to="get-a-quote">
-                  <img src={formImg2} alt="" />
+                  <img src={formImg2} alt="" className="" />
                 </Link>
                 {/* <iframe
               src="https://form.jotform.com/232601709873459"
