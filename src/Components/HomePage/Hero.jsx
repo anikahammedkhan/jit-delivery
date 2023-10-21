@@ -141,7 +141,7 @@ const Hero = () => {
               </div>
             </div>
           </Carousel>
-          <div className="flex max-w-[1440px] mx-auto relative xl:top-[-1050px] lg:top-[-800px] md:top-[-350px] top-[-280px] bg-transparent">
+          <div className="flex max-w-[1440px] mx-auto relative 2xl:top-[-1050px] xl:top-[-950px] lg:top-[-800px] md:top-[-350px] top-[-280px] bg-transparent">
             <div className="lg:w-1/2"></div>
             <div className="lg:w-1/2 w-full mx-auto bg-transparent">
               <div
@@ -294,7 +294,7 @@ const Hero = () => {
               </div>
             </div>
           </Carousel>
-          <div className="flex max-w-[1440px] mx-auto relative xl:top-[-1050px] lg:top-[-850px] md:top-[-350px] top-[-400px] bg-transparent">
+          <div className="flex max-w-[1440px] mx-auto relative 2xl:top-[-1050px] xl:top-[-950px] lg:top-[-850px] md:top-[-350px] top-[-400px] bg-transparent">
             <div className="lg:w-1/2"></div>
             <div className="lg:w-1/2 w-full mx-auto bg-transparent">
               <div

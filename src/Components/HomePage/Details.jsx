@@ -15,7 +15,7 @@ const Details = () => {
   return (
     <div>
       {language === "en" ? (
-        <div className="mt-28 max-w-[1440px] mx-auto relative top-[500px] md:top-[-50px] lg:top-[50px] xl:top-[-50px]">
+        <div className="mt-28 max-w-[1440px] mx-auto relative top-[500px] md:top-[-50px] lg:top-[-50px] xl:top-[-50px]">
           <div
             className="text-center"
             data-aos="fade-up"
@@ -182,7 +182,7 @@ const Details = () => {
           </div>
         </div>
       ) : (
-        <div className="mt-28 max-w-[1440px] mx-auto relative top-[500px] md:top-[-50px] lg:top-[50px] xl:top-[-50px]">
+        <div className="mt-28 max-w-[1440px] mx-auto relative top-[750px] md:top-[0px] lg:top-[-50px] xl:top-[-50px]">
           <div
             className="text-center"
             data-aos="fade-up"

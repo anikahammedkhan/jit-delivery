@@ -14,7 +14,7 @@ const WhyChoseUs = () => {
   return (
     <div>
       {language === "en" ? (
-        <div className="max-w-[1440px] mx-auto relative xl:top-[0px] lg:top-[100px] md:top-[0px] top-[550px]">
+        <div className="max-w-[1440px] mx-auto relative xl:top-[0px] lg:top-[-50px] md:top-[0px] top-[550px]">
           <h1 className="text-center text-[36px] font-semibold mb-10">
             Why Choose Us
           </h1>
@@ -240,7 +240,7 @@ const WhyChoseUs = () => {
           </div>
         </div>
       ) : (
-        <div className="max-w-[1440px] mx-auto relative xl:top-[0px] lg:top-[100px] md:top-[0px] top-[550px]">
+        <div className="max-w-[1440px] mx-auto relative xl:top-[0px] lg:top-[100px] md:top-[0px] top-[750px] md:pb-0 pb-[200px]">
           <h1 className="text-center text-[36px] font-semibold mb-10">
             কেন আমাদের নির্বাচন করবেন
           </h1>
