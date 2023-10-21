@@ -20,7 +20,7 @@ const OurServices = () => {
           </h1>
           <div
             className="card xl:card-side bg-base-100 shadow-xl mx-10"
-            data-aos="fade-left"
+            data-aos="fade-down"
             data-aos-offset="200"
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
@@ -63,7 +63,7 @@ const OurServices = () => {
           </div>
           <div
             className="card xl:card-side bg-base-100 shadow-xl mx-10 my-10"
-            data-aos="fade-right"
+            data-aos="fade-up"
             data-aos-offset="200"
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
@@ -106,7 +106,7 @@ const OurServices = () => {
           </div>
           <div
             className="card xl:card-side bg-base-100 shadow-xl mx-10"
-            data-aos="fade-left"
+            data-aos="fade-down"
             data-aos-offset="200"
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
@@ -154,7 +154,7 @@ const OurServices = () => {
           </div>
           <div
             className="card xl:card-side bg-base-100 shadow-xl mx-10 my-10"
-            data-aos="fade-right"
+            data-aos="fade-up"
             data-aos-offset="200"
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
@@ -199,7 +199,7 @@ const OurServices = () => {
           </div>
           <div
             className="card xl:card-side bg-base-100 shadow-xl mx-10 my-10"
-            data-aos="fade-left"
+            data-aos="fade-down"
             data-aos-offset="200"
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
@@ -233,7 +233,7 @@ const OurServices = () => {
           </div>
           <div
             className="card xl:card-side bg-base-100 shadow-xl mx-10"
-            data-aos="fade-right"
+            data-aos="fade-up"
             data-aos-offset="200"
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
@@ -281,7 +281,7 @@ const OurServices = () => {
           </h1>
           <div
             className="card xl:card-side bg-base-100 shadow-xl mx-10"
-            data-aos="fade-left"
+            data-aos="fade-down"
             data-aos-offset="200"
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
@@ -328,7 +328,7 @@ const OurServices = () => {
           </div>
           <div
             className="card xl:card-side bg-base-100 shadow-xl mx-10 my-10"
-            data-aos="fade-right"
+            data-aos="fade-up"
             data-aos-offset="200"
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
@@ -372,7 +372,7 @@ const OurServices = () => {
           </div>
           <div
             className="card xl:card-side bg-base-100 shadow-xl mx-10"
-            data-aos="fade-left"
+            data-aos="fade-down"
             data-aos-offset="200"
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
@@ -432,7 +432,7 @@ const OurServices = () => {
           </div>
           <div
             className="card xl:card-side bg-base-100 shadow-xl mx-10 my-10"
-            data-aos="fade-right"
+            data-aos="fade-up"
             data-aos-offset="200"
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
@@ -477,7 +477,7 @@ const OurServices = () => {
           </div>
           <div
             className="card xl:card-side bg-base-100 shadow-xl mx-10 my-10"
-            data-aos="fade-left"
+            data-aos="fade-down"
             data-aos-offset="200"
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
@@ -515,7 +515,7 @@ const OurServices = () => {
           </div>
           <div
             className="card xl:card-side bg-base-100 shadow-xl mx-10"
-            data-aos="fade-right"
+            data-aos="fade-up"
             data-aos-offset="200"
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"

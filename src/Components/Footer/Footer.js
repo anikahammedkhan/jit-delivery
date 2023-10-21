@@ -6,6 +6,7 @@ import insta from "../../Assets/Logo/instagram.png";
 import whatsapp from "../../Assets/Logo/whatsapp.png";
 import address from "../../Assets/Logo/adress.png";
 import call from "../../Assets/Logo/call.png";
+import email from "../../Assets/Logo/email.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -30,7 +31,11 @@ const Footer = () => {
             <img src={whatsapp} alt="" className="w-[30px]" />
           </Link>
         </div>
-        <div className="flex flex-col justify-start">
+        <div className="flex flex-col justify-start gap-2">
+          <div className="flex items-center gap-3 text-[14px]">
+            <img src={email} alt="" className="w-[25px]" />
+            <p>info@jitdeliver.com</p>
+          </div>
           <div className="flex items-center gap-3 text-[14px]">
             <img src={call} alt="" className="w-[25px]" />
             <p>+8801714208717</p>

@@ -8,7 +8,6 @@ import imgTwo from "../../Assets/BannerImg/002.jpg";
 import imgThree from "../../Assets/BannerImg/003.jpg";
 import formImg from "../../Assets/BannerImg/hero-gaq.png";
 import formImg2 from "../../Assets/BannerImg/form-bd.jpg";
-import JotformEmbed from "react-jotform-embed";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Context/ContextData";
 
@@ -21,7 +20,7 @@ const Hero = () => {
   return (
     <div>
       {language === "en" ? (
-        <div className="xl:h-[850px] lg:h-[500px] md:h-[700px] h-[100px]">
+        <div className="lg:h-[85vh] md:h-[700px] h-[100px]">
           <Carousel
             autoPlay
             emulateTouch={false}
@@ -35,7 +34,7 @@ const Hero = () => {
           >
             <div>
               <img
-                className="xl:h-[850px] lg:h-[600px] md:h-[400px] h-[300px] object-cover"
+                className="lg:h-[85vh] md:h-[400px] h-[300px] object-cover"
                 src={imgOne}
                 alt="Banner"
                 style={{
@@ -44,7 +43,7 @@ const Hero = () => {
               />
               <div className="max-w-[1440px] mx-auto px-10 text-white lg:flex">
                 <div
-                  className="lg:w-1/2 relative xl:top-[-600px] lg:top-[-350px] md:top-[-350px] top-[-280px]"
+                  className="lg:w-1/2 relative xl:top-[-500px] lg:top-[-450px] md:top-[-350px] top-[-280px]"
                   data-aos="fade-right"
                   data-aos-offset="200"
                   data-aos-duration="1500"
@@ -71,7 +70,7 @@ const Hero = () => {
             </div>
             <div>
               <img
-                className="xl:h-[850px] lg:h-[600px] md:h-[400px] h-[300px] object-cover"
+                className="lg:h-[85vh] md:h-[400px] h-[300px] object-cover"
                 src={imgTwo}
                 alt="Banner"
                 style={{
@@ -80,7 +79,7 @@ const Hero = () => {
               />
               <div className="max-w-[1440px] mx-auto px-10 text-white lg:flex">
                 <div
-                  className="lg:w-1/2 relative xl:top-[-600px] lg:top-[-350px] md:top-[-350px] top-[-280px]"
+                  className="lg:w-1/2 relative 2xl:top-[-600px] xl:top-[-500px] lg:top-[-420px] md:top-[-350px] top-[-280px]"
                   data-aos="fade-right"
                   data-aos-offset="200"
                   data-aos-duration="1500"
@@ -107,7 +106,7 @@ const Hero = () => {
             </div>
             <div>
               <img
-                className="xl:h-[850px] lg:h-[600px] md:h-[400px] h-[300px] object-cover"
+                className="lg:h-[85vh] md:h-[400px] h-[300px] object-cover"
                 src={imgThree}
                 alt="Banner"
                 style={{
@@ -116,7 +115,7 @@ const Hero = () => {
               />
               <div className="max-w-[1440px] mx-auto px-10 text-white lg:flex">
                 <div
-                  className="lg:w-1/2 relative xl:top-[-600px] lg:top-[-350px] md:top-[-350px] top-[-280px]"
+                  className="lg:w-1/2 relative xl:top-[-500px] lg:top-[-350px] md:top-[-350px] top-[-280px]"
                   data-aos="fade-right"
                   data-aos-offset="200"
                   data-aos-duration="1500"
@@ -168,9 +167,9 @@ const Hero = () => {
           </div>
         </div>
       ) : (
-        <div className="xl:h-[850px] lg:h-[500px] md:h-[700px] h-[400px]">
+        <div className="lg:h-[85vh] md:h-[700px] h-[100px]">
           <Carousel
-            autoPlay
+            // autoPlay
             emulateTouch={false}
             swipeable={false}
             infiniteLoop
@@ -182,7 +181,7 @@ const Hero = () => {
           >
             <div>
               <img
-                className="xl:h-[850px] lg:h-[600px] md:h-[400px] h-[500px] object-cover"
+                className="lg:h-[85vh] md:h-[400px] h-[500px] object-cover"
                 src={imgOne}
                 alt="Banner"
                 style={{
@@ -191,7 +190,7 @@ const Hero = () => {
               />
               <div className="max-w-[1440px] mx-auto px-10 text-white lg:flex">
                 <div
-                  className="lg:w-1/2 relative xl:top-[-600px] lg:top-[-450px] md:top-[-350px] top-[-420px]"
+                  className="lg:w-1/2 relative 2xl:top-[-600px] xl:top-[-500px] lg:top-[-450px] md:top-[-350px] top-[-420px]"
                   data-aos="fade-left"
                   data-aos-offset="200"
                   data-aos-duration="1500"
@@ -218,7 +217,7 @@ const Hero = () => {
             </div>
             <div>
               <img
-                className="xl:h-[850px] lg:h-[600px] md:h-[400px] h-[500px] object-cover"
+                className="lg:h-[85vh] md:h-[400px] h-[500px] object-cover"
                 src={imgTwo}
                 alt="Banner"
                 style={{
@@ -227,20 +226,21 @@ const Hero = () => {
               />
               <div className="max-w-[1440px] mx-auto px-10 text-white lg:flex">
                 <div
-                  className="lg:w-1/2 relative xl:top-[-600px] lg:top-[-350px] md:top-[-350px] top-[-420px]"
+                  className="lg:w-1/2 relative 2xl:top-[-550px] xl:top-[-500px] lg:top-[-450px] md:top-[-350px] top-[-420px]"
                   data-aos="fade-right"
                   data-aos-offset="200"
                   data-aos-duration="1500"
                   data-aos-easing="ease-in-out"
                 >
-                  <h1 className="font-bold xl:text-[55px] lg:text-[35px] md:text-[32px] text-[25px] lg:text-left">
-                    আমরা ওয়ারহাউজ অপারেশন ও সমর্থন সেবা প্রদান করে থাকি
+                  <h1 className="font-bold xl:text-[45px] lg:text-[35px] md:text-[32px] text-[25px] lg:text-left">
+                    আমরা আপনার প্রয়োজন অনুযায়ী মানসম্পন্ন বাড়ি, অফিস
+                    স্থানান্তর এবং পরিবহন পরিষেবা প্রদান করি
                   </h1>
                   <p className="lg:text-left">
-                    জেআইটি ডেলিভার আপনার পণ্যগুলি বন্দর থেকে আসার পরে বিশেষভাবে
-                    লোডিং এবং আনলোডিং, বাছাইকরন এবং সেগুলকে রেফারেন্স অনুসারে
-                    সাজানো এর সমস্ত কাজ সুসম্পূর্ণ ভাবে নিরাপত্তার সাথে করা হয়ে
-                    থাকে।
+                    আমরা স্বচ্ছতা এবং নিরাপত্তার সাথে কাজ করার সময় বিশেষ করে
+                    আপনার মালামালের যত্ন নেওয়া, আপনার বাড়ি এবং অফিস স্থানান্তর
+                    পরিষেবাগুলির সাথে সম্পর্কিত সমস্ত জটিল কাজগুলিকে সহজ করে দিই
+                    যাতে কোন প্রকার ক্ষতি না হয়৷
                   </p>
                 </div>
                 <div
@@ -254,7 +254,7 @@ const Hero = () => {
             </div>
             <div>
               <img
-                className="xl:h-[850px] lg:h-[600px] md:h-[400px] h-[500px] object-cover"
+                className="lg:h-[85vh] md:h-[400px] h-[500px] object-cover"
                 src={imgThree}
                 alt="Banner"
                 style={{
@@ -263,7 +263,7 @@ const Hero = () => {
               />
               <div className="max-w-[1440px] mx-auto px-10 text-white lg:flex">
                 <div
-                  className="lg:w-1/2 relative xl:top-[-600px] lg:top-[-350px] md:top-[-350px] top-[-420px]"
+                  className="lg:w-1/2 relative 2xl:top-[-600px] xl:top-[-500px] lg:top-[-450px] md:top-[-350px] top-[-420px]"
                   data-aos="fade-right"
                   data-aos-offset="200"
                   data-aos-duration="1500"

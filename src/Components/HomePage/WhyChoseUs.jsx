@@ -168,7 +168,7 @@ const WhyChoseUs = () => {
             <div className="grid grid-cols-7 justify-items-center items-center mb-10 max-w-[700px] mx-auto">
               <div
                 className="flex flex-col justify-center items-center gap-2"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-out"
@@ -179,7 +179,7 @@ const WhyChoseUs = () => {
                 </h2>
               </div>
               <div
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-out"
@@ -188,7 +188,7 @@ const WhyChoseUs = () => {
               </div>
               <div
                 className="flex flex-col justify-center items-center gap-2"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-out"
@@ -199,7 +199,7 @@ const WhyChoseUs = () => {
                 </h2>
               </div>
               <div
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-out"
@@ -208,7 +208,7 @@ const WhyChoseUs = () => {
               </div>
               <div
                 className="flex flex-col justify-center items-center gap-2"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-out"
@@ -217,7 +217,7 @@ const WhyChoseUs = () => {
                 <h2 className="text-center font-bold text-md">Safe Loading</h2>
               </div>
               <div
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-out"
@@ -226,7 +226,7 @@ const WhyChoseUs = () => {
               </div>
               <div
                 className="flex flex-col justify-center items-center gap-2"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-out"
@@ -258,7 +258,6 @@ const WhyChoseUs = () => {
                   সময়মতো ডেলিভারী
                 </h2>
                 <p className="text-center font-semibold">
-                  We at{" "}
                   <span className=" text-orange-600">জেআইটি ডেলিভার </span>{" "}
                   গ্রাহকের পণ্য এবং পরিষেবাগুলি নিরাপদ অবস্থায় সরবরাহ করার আশা
                   করে৷ দ্রুততম ডেলিভারি সঠিক সময়ে সঠিক জায়গায় ভাল অবস্থায়
@@ -398,7 +397,7 @@ const WhyChoseUs = () => {
             <div className="grid grid-cols-7 justify-items-center items-center mb-10 max-w-[700px] mx-auto">
               <div
                 className="flex flex-col justify-center items-center gap-2"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-out"
@@ -411,7 +410,7 @@ const WhyChoseUs = () => {
                 </h2>
               </div>
               <div
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-out"
@@ -420,7 +419,7 @@ const WhyChoseUs = () => {
               </div>
               <div
                 className="flex flex-col justify-center items-center gap-2"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-out"
@@ -431,7 +430,7 @@ const WhyChoseUs = () => {
                 </h2>
               </div>
               <div
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-out"
@@ -440,7 +439,7 @@ const WhyChoseUs = () => {
               </div>
               <div
                 className="flex flex-col justify-center items-center gap-2"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-out"
@@ -449,7 +448,7 @@ const WhyChoseUs = () => {
                 <h2 className="text-center font-bold text-md">নিরাপদ লোডিং</h2>
               </div>
               <div
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-out"
@@ -458,7 +457,7 @@ const WhyChoseUs = () => {
               </div>
               <div
                 className="flex flex-col justify-center items-center gap-2"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-duration="1500"
                 data-aos-easing="ease-in-out"
