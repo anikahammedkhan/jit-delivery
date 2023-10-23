@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import imgOne from "../../Assets/BannerImg/001.jpg";
-import imgTwo from "../../Assets/BannerImg/002.jpg";
+import imgTwo from "../../Assets/BannerImg/002.png";
 import imgThree from "../../Assets/BannerImg/003.jpg";
 import formImg from "../../Assets/BannerImg/hero-gaq.png";
 import formImg2 from "../../Assets/BannerImg/form-bd.png";
